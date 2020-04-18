@@ -1,0 +1,22 @@
+.box{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(green, yellow);
+}
+
+.box:hover{
+    flex-direction: row;
+}
+
+.minibox{
+    width: 150px;
+    height: 150px;
+    border:1px solid green;
+    background: white;
+}
